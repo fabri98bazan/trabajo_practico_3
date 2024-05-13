@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 	<head>
-	<meta charset="UTF-8" lang="es">
+	<meta charset="UTF-8">
 	<title>Formulario de Cliente</title>
-	<link rel="stylesheet" href="../static/estilos.css">
 	</head>
 	<body>
 		<header>
@@ -14,14 +13,42 @@
 		<form action="#" method="post">
 			<!-- Para pedir del tipo numérico -->
 			<label for="dni">DNI:</label>
-			<input id="dni" type="number" name="dni" required="required">
+			<input id="dni" type="number" name="dni" required="required"/>
 			<!--  Para pedir nombre y Apellido-->
+			<br>
 			<label for="nombre">Nombre:</label>
-			<input id="nombre" type="text" name="nombre" required="required">
+			<input id="nombre" type="text" name="nombre" required="required"/>
 			<label for="apellido">Apellido:</label>
-			<input id="apellido" type="text" name="apellido" required="required">
-			<!--  -->
-		
+			<input id="apellido" type="text" name="apellido" required="required"/>
+			<!-- Para pedir fecha -->
+			<br>
+			<label for="fechaNac">Fecha de Nacimiento:</label>
+			<input id="fechaNac" type="date" name="fechaNac" required="required"/>
+			<!-- Para Ingresar genero -->
+			<br>
+			<label>Seleccione su genero: </label>
+			<label for="masc">Masculino</label>
+			<input id="masc" type="radio" value="masculino" name="tipoGenero"/>
+			<label for="fem">Femenino</label>
+			<input id="fem" type="radio" value="femenino" name="tipoGenero"/>
+			<label for="x">X</label>
+			<input id="x" type="radio" value="x" name="tipoGenero"/>
+			<!-- Para seleccionar Provincia -->
+			<br>
+			<label for="provincia"> Selecciona la Provincia</label>
+			<select id="pronvincia" required="required">
+				<option calue="#">  </option>
+				<option value="JUJUY">Jujuy</option>
+				<option value="SALTA">Salta</option>
+				<option value="TUCUMAN">Tucuman</option>
+				<option value="SANTIAGO DEL ESTERO">Santiago del Estero</option>
+				<option value="CATAMARCA">Catamarca</option>
+			</select>
+			<!-- Para aceptar terminos y condiciones -->
+			<br>
+			<label for="Aceptar">Aceptar terminos y condiciones</label>
+			<input id="Aceptar" type="checkbox" name="Aceptar" required="required">
+			<button type="submit">Enviar</button>
 		</form>
 	</body>
 </html>
