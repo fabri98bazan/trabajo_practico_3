@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#encabezado {
+	background-color: #ccffcc;;
+	padding: 20px;
+	font-family: sans-serif;
+	color: red;
+};
+
+.menu{
+	padding: 20px;
+};
