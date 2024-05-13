@@ -1,17 +1,12 @@
 @charset "UTF-8";
 
-body{
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-};
-
 #encabezado {
-	background-color: #ccffcc;
-	color: #15002000;
+	background-color: #ccffcc;;
 	padding: 20px;
+	font-family: sans-serif;
+	color: red;
 };
 
 .menu{
-	color:#25612317;
+	padding: 20px;
 };

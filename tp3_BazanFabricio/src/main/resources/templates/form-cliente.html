@@ -3,6 +3,7 @@
 	<head>
 	<meta charset="UTF-8">
 	<title>Formulario de Cliente</title>
+	<link rel="stylesheet" href="../static/css/estilos.css">
 	</head>
 	<body>
 		<header>
@@ -11,6 +12,8 @@
 			</h1>
 		</header>
 		<form action="#" method="post">
+			<label>DATOS DEL CLIENTE</label>
+			<br>
 			<!-- Para pedir del tipo numérico -->
 			<label for="dni">DNI:</label>
 			<input id="dni" type="number" name="dni" required="required"/>
@@ -33,21 +36,59 @@
 			<input id="fem" type="radio" value="femenino" name="tipoGenero"/>
 			<label for="x">X</label>
 			<input id="x" type="radio" value="x" name="tipoGenero"/>
+			<!-- Para ingresar Correo -->
+			<br>
+			<label for="txtemail">Ingrese email:</label>
+			<input id="txtemail" type="email"  name="email" required="required"/>
+			<!-- Para Direccion -->
+			<br>
+			<label>DIRECCION</label>
+			<br>
+			<label for="txtcalle">Ingrese el nombre de la calle:</label>
+			<input id="txtcalle" type="text"  name="txtcalle" required="required"/>
+			<label for="numcasa">Ingrese la numeración</label>
+			<input id="numcasa" type="number" name="numcasa" required="required"/>
 			<!-- Para seleccionar Provincia -->
 			<br>
 			<label for="provincia"> Selecciona la Provincia</label>
 			<select id="pronvincia" required="required">
-				<option calue="#">  </option>
+				<option value="#">  </option>
 				<option value="JUJUY">Jujuy</option>
 				<option value="SALTA">Salta</option>
 				<option value="TUCUMAN">Tucuman</option>
 				<option value="SANTIAGO DEL ESTERO">Santiago del Estero</option>
 				<option value="CATAMARCA">Catamarca</option>
 			</select>
+			<!-- Para ingresar numero de telefono celular -->
+			<br>
+			<label for="numcel">Ingrese su nro. Celular</label>
+			<input id="numcel" type="number" name="numcel" required="required"/>
+			<!-- Para ingresar su categoría de interes-->
+			<br>
+			<label>SELECCIONE SU CATEGORÍA DE INTERES</label>
+			<br>
+			<label for="com">Comestible</label>
+			<input id="com" type="checkbox" name="comida">
+			<label for="lim">Limpieza</label>
+			<input id="lim" type="checkbox" name="limpieza">
+			<label for="cosm">Cosmetico</label>
+			<input id="cosm" type="checkbox" name="cosmetico">
+			<label for="hig">Higiene</label>
+			<input id="hig" type="checkbox" name="higiene">
+			<!-- Para ingresar Password -->
+			<br>
+			<label for="contra">Ingrese su Contraseña</label>
+			<input id="contra" type="password" name="numcel" required="required"/>
 			<!-- Para aceptar terminos y condiciones -->
 			<br>
+			<label for="Acept">Aceptar recibir información de la empresa</label>
+			<input id="Acept" type="checkbox" name="Acept">
+			<br>
+			<label for="CondicionesEmperesariales"></label>
+			<textarea rows="10" cols="50" name="Condicion" id="CondicionesEmperesariales">Ingrese su sugerencia para esta empresa</textarea>
+			<br>
 			<label for="Aceptar">Aceptar terminos y condiciones</label>
-			<input id="Aceptar" type="checkbox" name="Aceptar" required="required">
+			<input id="Aceptar" type="checkbox" name="Aceptar" required="required"/>
 			<button type="submit">Enviar</button>
 		</form>
 	</body>
