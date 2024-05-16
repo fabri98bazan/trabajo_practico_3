@@ -1,12 +1,58 @@
 @charset "UTF-8";
 
-#encabezado {
-	background-color: #ccffcc;;
-	padding: 20px;
-	font-family: sans-serif;
+.principal
+{
+	background-color: yellow;
+	
+}
+
+.section1
+{
+	font-size: 35px;
+}
+
+.tituloh2
+{
+	color:red;
+}
+
+.menu
+{
+	background: #cffccc;
+	font-family:sans-serif;
+	text-align: center;
+	width:250px;
+	height:65px;
+	padding:20px;
+	
+}
+
+.titular
+{
+	background-color: #ccffcc;
+	text-align: center;
+	color: red;
+	font-family: fantasy;
+};
+
+
+
+#pie_pagina
+{
+	width:250px;
+	/*el width es el ancho de la caja*/
+	height:65px;
+	/*el height es la altura*/
+
+	background-color: yellow;
+	font-family: cursive;
+	text-align: center;
+};
+
+.linkF
+{
+	font-family:fantasy;
 	color: red;
 };
 
-.menu{
-	padding: 20px;
-};
+

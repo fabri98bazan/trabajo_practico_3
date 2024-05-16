@@ -6,24 +6,28 @@
 <link rel="stylesheet" href="../static/css/estilos.css">
 </head>
 <body>
-<header id="encabezado">
-	<h1>Desarrollo del TP3</h1>	
-</header>
+<div class="titular">
+	<header id="encabezado">
+		<h1 class="tituloh1">Desarrollo del TP3</h1>	
+	</header>
+</div>
+
 
 <nav class="menu">
 <!-- Agregado de enlaces -->
 	<br>
-	<a href="https://desarrolladoresweb.org/html/enlaces-o-hipervinculos-en-html/">Aprende HTML</a>
+	<a class="enlace" href="https://desarrolladoresweb.org/html/enlaces-o-hipervinculos-en-html/">Aprende HTML</a>
 	<br>
-	<a href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=5#tabs-tree-start">Aula Virtual de PV</a>
+	<a class="enlace" href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=5#tabs-tree-start">Aula Virtual de PV</a>
 	<br>
-	<a href="https://github.com/fabri98bazan/trabajo_practico_3">Mi repositorio</a>
+	<a class="enlace" href="https://github.com/fabri98bazan/trabajo_practico_3">Mi repositorio</a>
 	<br>
 </nav>
-<main>
+
+<main class="principal">
 <!--Agregado de secciones y títulos  -->
-	<section>
-	<h2>Seccion número 1</h2>
+	<section class="section1">
+	<h2 class="tituloh2">Seccion número 1</h2>
 	<h3>Subtítulo 1</h3>
 	<p>Lista desorndenada</p>
 	<br>
@@ -35,8 +39,8 @@
 	</ul>
 	</section>
 	
-	<section>
-	<h2>Seccion número 2</h2>
+	<section class="section1">
+	<h2 class="tituloh2">Seccion número 2</h2>
 	<h3>Subtítulo 2</h3>
 	<p>Lista ORDENADA</p>
 	<br>
@@ -48,8 +52,8 @@
 	</ol>
 	</section>
 	
-	<section>
-	<h2>Seccion número 3</h2>
+	<section class="section1">
+	<h2 >Seccion número 3</h2>
 	<h3>Subtítulo 3</h3>
 	<p>El final es una lista Desorndenada</p>
 	<br>
@@ -61,7 +65,7 @@
 	</section>
 	
 	<!-- Agregado de la tabla -->
-	<h1>Lista de alumnos</h1>
+	<h1 class="tituloh1">Lista de alumnos</h1>
 	<table> 
 		<tr>
 			<th>Apellido</th>
@@ -92,11 +96,11 @@ contenido complementario, pero que ya no forma parte del contenido principal.
 
 El elemento <aside> podrían ser los sidebar, las barras laterales que algunos sitios web presentan o 
 publicidad, banners, o simplemente elementos complementarios -->
-<aside>
-	<a href="https://desarrolladoresweb.org/html5/estructura-de-una-pagina-html5/">Estructura Principal de HTML</a>
+<aside class="side">
+	<a href="https://desarrolladoresweb.org/html5/estructura-de-una-pagina-html5/" class="link">Estructura Principal de HTML</a>
 	<!-- El atributo alt contiene el texto alternativo, este texto se mostrará si por alguna razón no carga la imagen, 
 	por lo tanto tiene que ser un texto que describa a dicha imagen. -->
-	<img alt="Imagen de html" src="https://serprogramador.com.ar/wp-content/uploads/2018/09/Html5_diseno_web-1.png">
+	<img alt="Imagen de html" src="https://serprogramador.com.ar/wp-content/uploads/2018/09/Html5_diseno_web-1.png" class="imagen">
 </aside>
 
 
@@ -104,13 +108,14 @@ publicidad, banners, o simplemente elementos complementarios -->
 <!-- Agregado de footer -->
 <!-- Este elemento prácticamente contiene el pie de página, dentro pueden ir como por ejemplo iconos de 
 redes sociales, datos de contacto, términos del servicio, etc. -->
+<div id="pie_pagina">
+	<footer id="foot">
+		<p>Contacto: 41300614@fi.unju.edu.ar
+			<a href="https://www.facebook.com/" class="linkF">Facebook</a>
+		</p>
+	</footer>
+</div>
 
-<footer>
-	<p>Contacto: 41300614@fi.unju.edu.ar
-	<a href="https://www.facebook.com/">Facebook
-	</a>
-	</p>
-</footer>
 
 </body>
 </html>
