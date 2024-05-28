@@ -15,50 +15,50 @@
         </div>
 		<form action="#" method="post">
 			<div class="caja_cliente">
-				<label id="labeles">DATOS DEL CLIENTE</label>
+				<label class="labeles">DATOS DEL CLIENTE</label>
 				<br>
 				<!-- Para pedir del tipo numérico -->
 				<label for="dni">DNI:</label>
-				<input id="dni" type="number" name="dni" required="required"/>
+				<input id="dni" type="number" required="required">
 				<!--  Para pedir nombre y Apellido-->
 				<br>
 				<label for="nombre">Nombre:</label>
-				<input id="nombre" type="text" name="nombre" required="required"/>
+				<input id="nombre" type="text" required="required">
 				<label for="apellido">Apellido:</label>
-				<input id="apellido" type="text" name="apellido" required="required"/>
+				<input id="apellido" type="text" required="required">
 				<!-- Para pedir fecha -->
 				<br>
 				<label for="fechaNac">Fecha de Nacimiento:</label>
-				<input id="fechaNac" type="date" name="fechaNac" required="required"/>
+				<input id="fechaNac" type="date" required="required">
 				<!-- Para Ingresar genero -->
 				<br>
 				<label>Seleccione su genero: </label>
 				<label for="masc">Masculino</label>
-				<input id="masc" type="radio" value="masculino" name="tipoGenero"/>
+				<input id="masc" type="radio" value="masculino">
 				<label for="fem">Femenino</label>
-				<input id="fem" type="radio" value="femenino" name="tipoGenero"/>
+				<input id="fem" type="radio" value="femenino">
 				<label for="x">X</label>
-				<input id="x" type="radio" value="x" name="tipoGenero"/>
+				<input id="x" type="radio" value="x">
 				<!-- Para ingresar Correo -->
 				<br>
 				<label for="txtemail">Ingrese email:</label>
-				<input id="txtemail" type="email"  name="email" required="required"/>
+				<input id="txtemail" type="email" required="required">
 			</div>
 			
 			<!-- Para Direccion -->
 			<br>
 			<div id="caja_direccion">
-				<label id="labeles">DIRECCION</label>
+				<label class="labeles">DIRECCION</label>
 				<br>
 				<label for="txtcalle">Ingrese el nombre de la calle:</label>
-				<input id="txtcalle" type="text"  name="txtcalle" required="required"/>
+				<input id="txtcalle" type="text"  name="txtcalle" required="required">
 				<label for="numcasa">Ingrese la numeración</label>
-				<input id="numcasa" type="number" name="numcasa" required="required"/>
+				<input id="numcasa" type="number" name="numcasa" required="required">
 				<!-- Para seleccionar Provincia -->
 				<br>
 				<label for="provincia"> Selecciona la Provincia</label>
-				<select id="pronvincia" required="required">
-					<option value="#">  </option>
+				<select id="provincia" required="required">
+					<option value="#">  </option> <!-- Para tener una opcion vacia -->
 					<option value="JUJUY">Jujuy</option>
 					<option value="SALTA">Salta</option>
 					<option value="TUCUMAN">Tucuman</option>
@@ -68,7 +68,7 @@
 			<!-- Para ingresar numero de telefono celular -->
 				<br>
 				<label for="numcel">Ingrese su nro. Celular</label>
-				<input id="numcel" type="number" name="numcel" required="required"/>
+				<input id="numcel" type="number" name="numcel" required="required">
 			</div>
 
 			<br>
@@ -88,7 +88,7 @@
 				<!-- Para ingresar Password -->
 				<br>
 				<label for="contra">Ingrese su Contraseña</label>
-				<input id="contra" type="password" name="numcel" required="required"/>
+				<input id="contra" type="password" name="numcel" required="required">
 				<!-- Para aceptar terminos y condiciones -->
 				<br>
 				<label for="Acept">Aceptar recibir información de la empresa</label>
@@ -99,7 +99,7 @@
 			</div>
 			<br>
 			<label for="Aceptar">Aceptar terminos y condiciones</label>
-			<input id="Aceptar" type="checkbox" name="Aceptar" required="required"/>
+			<input id="Aceptar" type="checkbox" name="Aceptar" required="required">
 			<button type="submit">Enviar</button>
 		</form>
 	</body>

@@ -54,10 +54,77 @@
     border-radius: 5px; 
 }
 
-#labeles {
+.labeles {
     color: white;
     font-style:oblique
 }
 
+/*Parte 1 del tp3*/
+.body-P1{
+	background-color: #d5f9ba;
+}
+
+#tituloh1{
+	font-size:45px;
+	text-align:center;
+	font-family: monospace;
+	padding:0;
+	color:blue;
+}
+
+.caja_navegacion{
+	display: flex;
+	text-align: center;
+}
+
+.enlaces1{
+	margin-left: 40px;
+	font-family: fantasy;
+	color: red;
+}
+
+section{
+	text-align: center;
+	font-family: monospace;
+}
+
+ul{
+	font-size: 19px;
+}
+
+p{
+	font-size: 19px;
+}
+
+h3{
+	font-size:20px;
+	color:blue;
+	text-align:center;
+}
+
+table {
+  border: #b2b2b2 1px solid;
+}
+
+td, th {
+  font-family:monospace;
+  font-size:20px;
+  border: black 1px solid;
+}
+
+aside{
+	text-align: center;
+	font-size:25px;
+	color:red;
+	font-family: monospace;
+}
+
+img{
+	width: 800px;
+	height: 200px;
+}
 
 
+footer{
+	text-align: center;
+}
