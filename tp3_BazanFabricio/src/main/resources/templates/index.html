@@ -5,90 +5,52 @@
 <title>Trabajo Practico n3</title>
 <link rel="stylesheet" href="../static/css/estilos.css">
 </head>
-<body>
-<div class="titular">
-	<header id="encabezado">
-		<h1 class="tituloh1">Bienvenidos a Programación Visual</h1>	
+<body class="body-P1">
+
+	<header>
+		<h1 id="tituloh1">Bienvenidos a Programación Visual</h1>
 	</header>
-</div>
 
 
-<nav class="menu">
 <!-- Agregado de enlaces -->
-	<br>
-	<a class="enlace" href="https://desarrolladoresweb.org/html/enlaces-o-hipervinculos-en-html/">Aprende HTML</a>
-	<br>
-	<a class="enlace" href="https://virtual.unju.edu.ar/course/view.php?id=2540&section=5#tabs-tree-start">Aula Virtual de PV</a>
-	<br>
-	<a class="enlace" href="https://github.com/fabri98bazan/trabajo_practico_3">Mi repositorio</a>
-	<br>
-</nav>
 
-<main class="principal">
+	<nav class="caja_navegacion">
+		<a class="enlaces1" href="https://virtual.unju.edu.ar/course/view.php?id=2540"> Aula Virtual</a>
+		<a class="enlaces1" href="https://drive.google.com/file/d/11dfjZRXbsiX_Y1-8EmOn7D7mjjo1bHzI/view">Plan de Estudio de la Materia</a>
+	</nav>
+
 <!--Agregado de secciones y títulos  -->
-	<section class="section1">
-	<h2 class="tituloh2">Seccion número 1</h2>
-	<h3>Subtítulo 1</h3>
-	<p>Lista desorndenada</p>
-	<br>
-	<!-- el tag ul es para lista desordenadas -->
-	<ul>
-	<li>azul</li>
-	<li>amarillo</li>
-	<li>verde</li>
-	</ul>
-	</section>
-	
-	<section class="section1">
-	<h2 class="tituloh2">Seccion número 2</h2>
-	<h3>Subtítulo 2</h3>
-	<p>Lista ORDENADA</p>
-	<br>
-	<!-- el tag ol es para lista desordenadas -->
-	<ol>
-	<li>Papas</li>
-	<li>Zanahoria</li>
-	<li>Acelga</li>
-	</ol>
-	</section>
-	
-	<section class="section1">
-	<h2 >Seccion número 3</h2>
-	<h3>Subtítulo 3</h3>
-	<p>El final es una lista Desorndenada</p>
-	<br>
-	<ul>
-	<li>Pedro</li>
-	<li>OScar</li>
-	<li>Miguel</li>
-	</ul>
-	</section>
+	<main>
+		<section>
+			<h2>Profesores a cargo</h2>
+			<ul>
+				<li>Vega, Alejandro Ariel</li>
+				<li>Apaza, Carolina</li>
+				<li>Sosa, Gustavo</li>
+				<li>Rodriguez, Juan Carlos</li>
+			</ul>
+		</section>
+		
+		<section>
+			<h3>Descripción de la materia</h3>
+			<p>Esta asignatura ofrece a los alumnos un cuerpo de conocimientos teóricos y
+prácticos cuya compresión y utilización les permitirá desarrollar aplicaciones robustas con
+un entorno visual amigable e intuitivo para el usuario. Además la materia brinda conocimientos en el manejo de tecnologías que facilitan
+las tareas del desarrollador como el control de versiones con GIT, la administración de
+dependencias con MAVEN, desarrollo ágil con Spring Boot y el uso de entornos de
+desarrollo avanzados como Netbeans, Eclipse y Visual Studio Code. También se promueve la eficiencia y eficacia del desarrollo del sofware para
+alcanzar estándares de la más alta calidad, de tal forma que el código obtenido sea
+fácilmente entendible, extensible y reusable. Estando bien estructurado y testado de forma
+que sea fácil de trabajar en equipo y este bien preparado para cambios futuros. Por último, se brinda al alumno los conocimientos teóricos y prácticos para realizar la
+persistencia de los objetos en base de datos relacionales, articulando conocimientos con
+otras materias como base de datos.</p>
+		</section>
+	</main>
+
+
+
 	
 	<!-- Agregado de la tabla -->
-	<h1 class="tituloh1">Lista de alumnos</h1>
-	<table> 
-		<tr>
-			<th>Apellido</th>
-			<th>Nombre</th>
-			<th>ID</th>
-			<th>email</th>
-		</tr>
-	
-		<tr>
-			<td>Enrique</td>
-			<td>Ariel</td>
-			<td>13259</td>
-			<td>vega@gmail.com</td>
-		</tr>
-		
-		<tr>
-			<td>Fabricio</td>
-			<td>Bazan</td>
-			<td>1235</td>
-			<td>fabri@gmail.com</td>
-		</tr>
-	</table>
-</main>
 
 <!-- Agregado del aside -->
 <!-- Si <aside> se pone dentro de <article>, entonces se puede entender que <aside> es un 
@@ -96,25 +58,16 @@ contenido complementario, pero que ya no forma parte del contenido principal.
 
 El elemento <aside> podrían ser los sidebar, las barras laterales que algunos sitios web presentan o 
 publicidad, banners, o simplemente elementos complementarios -->
-<aside class="side">
-	<a href="https://desarrolladoresweb.org/html5/estructura-de-una-pagina-html5/" class="link">Estructura Principal de HTML</a>
+
 	<!-- El atributo alt contiene el texto alternativo, este texto se mostrará si por alguna razón no carga la imagen, 
 	por lo tanto tiene que ser un texto que describa a dicha imagen. -->
-	<img alt="Imagen de html" src="https://serprogramador.com.ar/wp-content/uploads/2018/09/Html5_diseno_web-1.png" class="imagen">
-</aside>
+
 
 
 
 <!-- Agregado de footer -->
 <!-- Este elemento prácticamente contiene el pie de página, dentro pueden ir como por ejemplo iconos de 
 redes sociales, datos de contacto, términos del servicio, etc. -->
-<div id="pie_pagina">
-	<footer id="foot">
-		<p>Contacto: 41300614@fi.unju.edu.ar
-			<a href="https://www.facebook.com/" class="linkF">Facebook</a>
-		</p>
-	</footer>
-</div>
 
 
 </body>
