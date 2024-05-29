@@ -61,15 +61,16 @@
 
 /*Parte 1 del tp3*/
 .body-P1{
-	background-color: #d5f9ba;
+	background: url(https://wallpapers.com/images/hd/information-technology-3d-circuit-symbol-s7hpo0fa1vr1k5ru.jpg);
 }
 
 #tituloh1{
 	font-size:45px;
 	text-align:center;
 	font-family: monospace;
-	padding:0;
-	color:blue;
+	padding:0px;
+	color:#cffcfc;
+	margin:0;
 }
 
 .caja_navegacion{
@@ -78,53 +79,106 @@
 }
 
 .enlaces1{
-	margin-left: 40px;
+	margin-left: 60px;
 	font-family: fantasy;
-	color: red;
+	font-size:41px;
+	color: #ff8040;
+	margin-bottom:18px;
+	margin-top:0px;
 }
 
-section{
+.menu{
 	text-align: center;
-	font-family: monospace;
 }
 
-ul{
-	font-size: 19px;
-}
-
-p{
-	font-size: 19px;
-}
-
-h3{
+.lista_profes{
+	font-family: fantasy;
 	font-size:20px;
-	color:blue;
-	text-align:center;
+	padding: 0px;
+	margin:0;
+	margin-left:0;
+	color:red;
+	background-color: orange;
+	box-sizing:border-box; 
 }
 
-table {
-  border: #b2b2b2 1px solid;
+
+.profescargo{
+	text-align: center;
+	color:red;
+	margin: 0;
+	font-family: fantasy;
+	font-size: 35px;
+}
+
+.secciones{
+	background-color:#ccffcc ;
+}
+
+.descpMateriaTitulo{
+	text-align: center;
+	color:blue;
+	margin: 0;
+	font-family: fantasy;
+	font-size: 35px;
+	background-color: #ccffcc;
+}
+
+.descrpMateria{
+	font-family: monospace;
+	font-size:20px;
+	padding: 0px;
+	margin:0;
+	border: 3px solid;
+	border-color: red;
+}
+
+.titCont{
+	box-sizing: border-box;
+	font-size: 45px;
+	text-align:center;
+	font-family: fantasy;
+	background-color: #cffcfc;
+	margin-bottom:0;
+}
+
+.tablaUnidades {
+  border: black 1px solid;
+  color:orange;
 }
 
 td, th {
   font-family:monospace;
   font-size:20px;
-  border: black 1px solid;
+  border: white 1px solid;
+}
+.aside{
+	text-align: center;
 }
 
-aside{
-	text-align: center;
-	font-size:25px;
-	color:red;
+.enlaceEspecial{
+	color:#ff8040;
 	font-family: monospace;
+	font-size: 21px;
 }
 
-img{
-	width: 800px;
-	height: 200px;
+.Img{
+	width: 250px;
+	height: 75px;
+}
+
+#pie_pagina{
+	font-family:monospace;
+	font-size:25px;
+	text-align:center;
+	color:#cfcfcf;
+}
+
+.facebook{
+	color:#ff8040;
 }
 
 
-footer{
-	text-align: center;
-}
+
+
+
